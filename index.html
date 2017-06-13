@@ -3,233 +3,285 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="styles/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Pinyon+Script" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <title>Places I've Traveled</title>
 </head>
 
 <body>
     <header>
-        <a href="#header"></a>
-        <h1>Places I've Traveled</h1>
+        <a name="header"></a>
+        <h1 id="title1">Places I've Traveled</h1>
+        <p id="byline">by Sara Hamilton</p>
         <nav>
             <ul>
-                <li><a href="#France">France</a></li>
-                <li><a href="#Germany">Germany</a></li>
-                <li><a href="#Italy">Italy</a></li>
-                <li><a href="#Croatia">Croatia</a></li>
-                <li><a href="#Belize">Belize</a></li>
+                <li><a href="#France"><button class="button">France</button></a></li>
+                <li><a href="#Germany"><button class="button">Germany</button></a></li>
+                <li><a href="#Italy"><button class="button">Italy</button></a></li>
+                <li><a href="#Croatia"><button class="button">Croatia</button></a></li>
+                <li><a href="#Belize"><button class="button">Belize</button></a></li>
             </ul>
         </nav>
     </header>
 
     <main>
         <article>
-            <section>
+            <section class="clearfix">
                 <a name="France"></a>
                 <h2>France</h2>
                 <figure>
                     <img src="images/notre dame.jpg" alt="Notre Dame" width="650" height="500">
                     <figcaption>Notre Dame in Paris, France</figcaption>
                 </figure>
-                <p>I visited France in September of 2013 as part of a Rick Steves' Best of Europe in 14 Days Tour. In Paris, we rode an elevator to the top of the Eiffel Tower. The view of the city from the top of the tower is magnificent. Paris is full
-                    of museums. The Louvre is the largest museum in the world. It is home to <cite>Mona Lisa</cite> and <cite>Venus de Milo</cite>. In Paris, we toured Saint-Chapelle and marveled at the intricate stained glass windows. Seeing Notre-Dame
-                    Cathedral lit up in the evening from a riverboat floating down the Seine was one of my favorite memories from this trip.</p>
-                <p>The food in France is excellent. We dined on duck confit, french onion soup, and escargot. The croissants in France are delicious. I have not been able to find a croissant in the United States that compares with those in France. A fresh
-                    croissant and a small cup of coffee make an excellent breakfast.</p>
-                <section>
-                    <h3>Captial</h3>
-                    <p>Paris</p>
-                </section>
-                <section>
-                    <h3>Currency</h3>
-                    <p>Euro (EUR) &euro;</p>
-                </section>
-                <section>
-                    <h3>Language</h3>
-                    <p>French</p>
-                    <ul>
-                        <li>good day - bonjour</li>
-                        <li>please - s'il vous plai&#x302;t</li>
-                        <li>thank you - merci</li>
-                        <li>goodbye - au revoir</li>
-                    </ul>
-                </section>
-                <section>
-                    <h4>Visitor Tips</h4>
-                    <ul>
-                        <li>Shoplifting is part of the culture in Europe. Keep your money, passport, and credit cards in a money belt underneath your clothes.</li>
-                        <li>Admission to most museums, including the Louvre, Muse&#x301;e d'Orsay, and Centre Pompidou is free on the first Sunday of every month.</li>
-                        <li><a href="http://www.jim-haynes.com/" target=" ">Jim Haynes</a> has been hosting a dinner party at his apartment evey Sunday night for the past 30 years. Attending this is a great way to meet interesting people from around the world.</li>
-                    </ul>
-                </section>
+                <p>
+                    I visited France in September of 2013 as part of a Rick Steves' Best of Europe in 14 Days Tour. In Paris, we rode an elevator to the top of the Eiffel Tower. The view of the city from the top of the tower is magnificent. Paris is full of museums. The
+                    Louvre is the largest museum in the world. It is home to <cite>Mona Lisa</cite> and <cite>Venus de Milo</cite>. In Paris, we toured Saint-Chapelle and marveled at the intricate stained glass windows. Seeing Notre-Dame
+                    Cathedral lit up in the evening from a riverboat floating down the Seine was one of my favorite memories from this trip.
+                </p>
+                <p>
+                    The food in France is excellent. We dined on duck confit, french onion soup, and escargot. The croissants in France are delicious. I have not been able to find a croissant in the United States that compares with those in France. A fresh croissant and
+                    a small cup of coffee make an excellent breakfast.
+                </p>
+                <div class="info-container">
+                    <div class="place-info">
+                        <section class="capital">
+                            <h3>Captial</h3>
+                            <p>Paris</p>
+                        </section>
+                        <section class="currency">
+                            <h3>Currency</h3>
+                            <p>Euro (EUR) &euro;</p>
+                        </section>
+                        <section class="language">
+                            <h3>Language</h3>
+                            <p>French</p>
+                            <ul>
+                                <li>good day - bonjour</li>
+                                <li>please - s'il vous plai&#x302;t</li>
+                                <li>thank you - merci</li>
+                                <li>goodbye - au revoir</li>
+                            </ul>
+                        </section>
+                    </div>
+                    <section class="tips">
+                        <h4>Visitor Tips</h4>
+                        <ul>
+                            <li>Shoplifting is part of the culture in Europe. Keep your money, passport, and credit cards in a money belt underneath your clothes.</li>
+                            <br/>
+                            <li>Admission to most museums, including the Louvre, Muse&#x301;e d'Orsay, and Centre Pompidou is free on the first Sunday of every month.</li>
+                            <br/>
+                            <li><a href="http://www.jim-haynes.com/" target=" ">Jim Haynes</a> has been hosting a dinner party at his apartment evey Sunday night for the past 30 years. Attending this is a great way to meet interesting people from around the
+                                world.
+                            </li>
+                        </ul>
+                    </section>
+                </div>
             </section>
         </article>
 
         <article>
-            <section>
+            <section class="clearfix">
                 <a name="Germany"></a>
                 <h2>Germany</h2>
                 <figure>
                     <img src="images/hofbrauhaus.jpg" alt="Hofbrauhaus" width="650" height="500">
                     <figcaption>Hofbrauhaus in Munich, Germany</figcaption>
                 </figure>
-                <p>I visited Germany in September of 2013 as part of a Rick Steves' Best of Europe in 14 Days Tour. Munich is home to many impressive museums. My favorite was the New Pinakothek where we saw many paintings by Van Gogh, Picasso, and Monet.
-                    While in Bavaria,we toured a beer hall where regulars have their own tables. You can get invited to share a table with them if you play your cards right. We ate dinner in a beer garden one evening where people all sit very close to
-                    each other at long picnic tables. It was quite a communal experience.</p>
-                <p>The food in Germany is very meat heavy. They are known for their sausages. I found myself craving a salad after eating here for a few days. Bavarian pretzels with chcoclate hazlenut spread make an excellent breakfast.</p>
-                <section>
-                    <h3>Captial</h3>
-                    <p>Berlin</p>
-                </section>
-                <section>
-                    <h3>Currency</h3>
-                    <p>Euro (EUR) &euro;</p>
-                </section>
-                <section>
-                    <h3>Language</h3>
-                    <p>German</p>
-                    <ul>
-                        <li>good day - guten tag</li>
-                        <li>please - bitte</li>
-                        <li>thank you - dankescho&#776;n</li>
-                        <li>goodbye - auf wiedersehen</li>
-                    </ul>
-                </section>
-                <section>
-                    <h4>Visitor Tips</h4>
-                    <ul>
-                        <li>In Munich, many stores are closed on Sunday. This is a general practice across much of Europe.</li>
-                        <li>May 1<sup>st</sup> is Maypole Day in Bavaria. This is celebrated with lots of beer, food, and music.</li>
-                    </ul>
-                </section>
+                <p>
+                    I visited Germany in September of 2013 as part of a Rick Steves' Best of Europe in 14 Days Tour. Munich is home to many impressive museums. My favorite was the New Pinakothek where we saw many paintings by Van Gogh, Picasso, and Monet. While in Bavaria,we
+                    toured a beer hall where regulars have their own tables. You can get invited to share a table with them if you play your cards right. We ate dinner in a beer garden one evening where people all sit very close to each other at long
+                    picnic tables. It was quite a communal experience.
+                </p>
+                <p>
+                    The food in Germany is very meat heavy. They are known for their sausages. I found myself craving a salad after eating here for a few days. Bavarian pretzels with chcoclate hazlenut spread make an excellent breakfast.
+                </p>
+                <div class="info-container">
+                    <div class="place-info">
+                        <section class="capital">
+                            <h3>Captial</h3>
+                            <p>Berlin</p>
+                        </section>
+                        <section class="currency">
+                            <h3>Currency</h3>
+                            <p>Euro (EUR) &euro;</p>
+                        </section>
+                        <section class="language">
+                            <h3>Language</h3>
+                            <p>German</p>
+                            <ul>
+                                <li>good day - guten tag</li>
+                                <li>please - bitte</li>
+                                <li>thank you - dankescho&#776;n</li>
+                                <li>goodbye - auf wiedersehen</li>
+                            </ul>
+                        </section>
+                    </div>
+                    <section class="tips">
+                        <h4>Visitor Tips</h4>
+                        <ul>
+                            <li>In Munich, many stores are closed on Sunday. This is a general practice across much of Europe.</li>
+                            <br/>
+                            <li>May 1<sup>st</sup> is Maypole Day in Bavaria. This is celebrated with lots of beer, food, and music.</li>
+                        </ul>
+                    </section>
+                </div>
             </section>
         </article>
 
         <article>
-            <section>
+            <section class="clearfix">
                 <a name="Italy"></a>
                 <h2>Italy</h2>
                 <figure>
                     <img src="images/venice.jpg" alt="Venice, Italy" width="650" height="500">
                     <figcaption>Venice, Italy</figcaption>
                 </figure>
-                <p>I visited Italy in September of 2013 as part of a Rick Steves' Best of Europe in 14 Days Tour. We walked through the cobblestone streets of street of Venice and rode in a gondola through the canals. We also visited Florence where they
-                    sold nice Italian leather goods for good prices at the market. In Florence, we toured the Uffizi Museum where we saw Botticelli's <cite>The Birth of Venus</cite>. We also visited Rome where our tour guide explained to us that Rome
-                    was built like a lasagna. There are many layers stacked upon each other. The ancient architecture is preserved while new buildings have been erected around them.</p>
-                <p>The food in Italy is delicious. We dined on homemade pasta and fresh seafood. Limonata gelato became my new favorite desert when I was there.</p>
-                <section>
-                    <h3>Captial</h3>
-                    <p>Rome</p>
-                </section>
-                <section>
-                    <h3>Currency</h3>
-                    <p>Euro (EUR) &euro;</p>
-                </section>
-                <section>
-                    <h3>Language</h3>
-                    <p>Italian</p>
-                    <ul>
-                        <li>good day - buon giorno</li>
-                        <li>please - per favore</li>
-                        <li>thank you - grazie</li>
-                        <li>goodbye - arrivederci</li>
-                    </ul>
-                </section>
-                <section>
-                    <h4>Visitor Tips</h4>
-                    <ul>
-                        <li>If possible, try to visit Venice when there are no or few cruise ships in port. The number of tourists in Venice changes dramatically depending on the cruise ships. You can check cuise ship schedules <a href="http://ports.cruisett.com/schedule/Italy/733-Venice">here</a>.</li>
-                        <li>If you decide to go to the top of the bell tower in St. Mark's square in Venice, try to not be at the top when the bells are ringing. It is rather loud.</li>
-                    </ul>
-                </section>
+                <p>
+                    I visited Italy in September of 2013 as part of a Rick Steves' Best of Europe in 14 Days Tour. We walked through the cobblestone streets of street of Venice and rode in a gondola through the canals. We also visited Florence where they sold nice Italian
+                    leather goods for good prices at the market. In Florence, we toured the Uffizi Museum where we saw Botticelli's <cite>The Birth of Venus</cite>. We also visited Rome where our tour guide explained to us that Rome
+                    was built like a lasagna. There are many layers stacked upon each other. The ancient architecture is preserved while new buildings have been erected around them.
+                </p>
+                <p>
+                    The food in Italy is delicious. We dined on homemade pasta and fresh seafood. Limonata gelato became my new favorite desert when I was there.
+                </p>
+                <div class="info-container">
+                    <div class="place-info">
+                        <section class="capital">
+                            <h3>Captial</h3>
+                            <p>Rome</p>
+                        </section>
+                        <section class="currency">
+                            <h3>Currency</h3>
+                            <p>Euro (EUR) &euro;</p>
+                        </section>
+                        <section class="language">
+                            <h3>Language</h3>
+                            <p>Italian</p>
+                            <ul>
+                                <li>good day - buon giorno</li>
+                                <li>please - per favore</li>
+                                <li>thank you - grazie</li>
+                                <li>goodbye - arrivederci</li>
+                            </ul>
+                        </section>
+                    </div>
+                    <section class="tips">
+                        <h4>Visitor Tips</h4>
+                        <ul>
+                            <li>If possible, try to visit Venice when there are no or few cruise ships in port. The number of tourists in Venice changes dramatically depending on the cruise ships. You can check cuise ship schedules <a href="http://ports.cruisett.com/schedule/Italy/733-Venice">here</a>.</li>
+                            <br/>
+                            <li>If you decide to go to the top of the bell tower in St. Mark's square in Venice, try to not be at the top when the bells are ringing. It is rather loud.</li>
+                        </ul>
+                    </section>
+                </div>
             </section>
         </article>
 
         <article>
-            <section>
+            <section class="clearfix">
                 <a name="Croatia"></a>
                 <h2>Croatia</h2>
                 <figure>
                     <img src="images/Dubrovnik.jpg" alt="Dubrovnik" width="650" height="500">
                     <figcaption>Dubrovnik, Croatia</figcaption>
                 </figure>
-                <p>I visited Croatia in May of 2015 as part of a Rick Steves' Best of the Adriatic in 14 Days Tour. Croatia is a beautiful country on the Adriatic Sea that has a history of war as recently as the 1990s. My favorite memory of Croatia is walking
-                    the ramparts of Dubrovnik. I also enjoyed visiting Plitvice Lakes National Park. Plitvice Park is filled with cascading waterfalls that tourists walk through and around on wooden pathways. It is like walking through a magical forest.</p>
-                <p>The food in Croatia is great. I especially enjoyed Buzara shrimp. This is a bowl full of shrimp in a tasty, rich wine and tomato based sauce. In Istria, we had Istrian black truffles with homemade pasta. It was delicious.</p>
-                <section>
-                    <h3>Captial</h3>
-                    <p>Zagreb</p>
-                </section>
-                <section>
-                    <h3>Currency</h3>
-                    <p>Kuna (HRK)</p>
-                </section>
-                <section>
-                    <h3>Language</h3>
-                    <p>Croatian</p>
-                    <ul>
-                        <li>good day - dobar dan</li>
-                        <li>please - molim</li>
-                        <li>thank you - hvala</li>
-                        <li>goodbye - dovidenja</li>
-                    </ul>
-                </section>
-                <section>
-                    <h4>Visitor Tips</h4>
-                    <ul>
-                        <li>In Split, there is a museum called Froggyland that is full of dioramas made with taxidermied frogs depicting a variety of scenarios.</li>
-                        <li>Many scenes in <cite>Game of Thrones</cite> are filmed in Croatia</li>
-                        <li>There is a tradition in Croatia of rubbing certain parts of certain statues for good luck. This is why the big toe of the Gregory of Nin statue in Split is so shiny.</li>
-                    </ul>
-                </section>
+                <p>
+                    I visited Croatia in May of 2015 as part of a Rick Steves' Best of the Adriatic in 14 Days Tour. Croatia is a beautiful country on the Adriatic Sea that has a history of war as recently as the 1990s. My favorite memory of Croatia is walking the ramparts
+                    of Dubrovnik. I also enjoyed visiting Plitvice Lakes National Park. Plitvice Park is filled with cascading waterfalls that tourists walk through and around on wooden pathways. It is like walking through a magical forest.
+                </p>
+                <p>
+                    The food in Croatia is great. I especially enjoyed Buzara shrimp. This is a bowl full of shrimp in a tasty, rich wine and tomato based sauce. In Istria, we had Istrian black truffles with homemade pasta. It was delicious.
+                </p>
+                <div class="info-container">
+                    <div class="place-info">
+                        <section class="capital">
+                            <h3>Captial</h3>
+                            <p>Zagreb</p>
+                        </section>
+                        <section class="currency">
+                            <h3>Currency</h3>
+                            <p>Kuna (HRK)</p>
+                        </section>
+                        <section class="language">
+                            <h3>Language</h3>
+                            <p>Croatian</p>
+                            <ul>
+                                <li>good day - dobar dan</li>
+                                <li>please - molim</li>
+                                <li>thank you - hvala</li>
+                                <li>goodbye - dovidenja</li>
+                            </ul>
+                        </section>
+                    </div>
+                    <section class="tips">
+                        <h4>Visitor Tips</h4>
+                        <ul>
+                            <li>In Split, there is a museum called Froggyland that is full of dioramas made with taxidermied frogs depicting a variety of scenarios.</li>
+                            <br/>
+                            <li>Many scenes in <cite>Game of Thrones</cite> are filmed in Croatia</li>
+                            <br/>
+                            <li>There is a tradition in Croatia of rubbing certain parts of certain statues for good luck. This is why the big toe of the Gregory of Nin statue in Split is so shiny.</li>
+                        </ul>
+                    </section>
+                </div>
             </section>
         </article>
 
         <article>
-            <section>
+            <section class="clearfix">
                 <a name="Belize"></a>
                 <h2>Belize</h2>
                 <figure>
                     <img src="images/Belize-sunset.jpg" alt="Sunset on Ambergris Caye, Belize" width="650" height="500">
                     <figcaption>Sunset on Ambergris Caye, Belize</figcaption>
                 </figure>
-                <p>I visited Belize in March of 2017 with my family. We spent half of our time in the jungle and half of our time in the cayes near the ocean. We crossed the border to Guatemala and toured the ancient Mayan ruins of Tikal. We also toured
-                    the <abbr title="Actun Tunichil Muknal">ATM</abbr> caves. The tour was a great adventure that involved swimming, climbing, and manuvering through tight spaces. There are many artifacts in the caves including ancient Mayan pottery and
-                    human skeletons. After spending some time in the jungle, we flew to Ambergris Caye in a very tiny plane. We enjoyed spending time on the beach. We took a catamaran tour that involved fishing and snorkeling with nurse sharks.</p>
-                <p>The food in Belize is delicious and nutritious. Beans and Rice are a common staple. Fried plantains make a delicious side dish. Conch fritters and fresh fish can be found in abundance. Caye Lime pie is a common dessert item.</p>
-                <section>
-                    <h3>Captial</h3>
-                    <p>Belmopan</p>
-                </section>
-                <section>
-                    <h3>Currency</h3>
-                    <p>Belize dollar (BZD)</p>
-                </section>
-                <section>
-                    <h3>Language</h3>
-                    <p>Spanish</p>
-                    <ul>
-                        <li>good day - buenos di&#x301;as</li>
-                        <li>please - por favor</li>
-                        <li>thank you - gracias</li>
-                        <li>goodbye - adio&#x301;s</li>
-                    </ul>
-                </section>
-                <section>
-                    <h4>Visitor Tips</h4>
-                    <ul>
-                        <li>If you go cave tubing, try to do it on a day when there are not any cruise ships in port. It will be a much less crowded and more pleasant experience. You can check cruise ship schedules <a href="http://ports.cruisett.com/">here</a>.</li>
-                        <li>Rice and beans is different from beans and rice. Rice and beans are cooked together in one pot with aromatics. Beans and rice are cooked separately.</li>
-                        <li>Bring plenty of sunscreen and insect repellent.</li>
-                    </ul>
-                </section>
+                <p>
+                    I visited Belize in March of 2017 with my family. We spent half of our time in the jungle and half of our time in the cayes near the ocean. We crossed the border to Guatemala and toured the ancient Mayan ruins of Tikal. We also toured the
+                    <abbr title="Actun Tunichil Muknal">ATM</abbr> caves. The tour was a great adventure that involved swimming, climbing, and manuvering through tight spaces. There are many artifacts in the caves including ancient Mayan pottery and human
+                    skeletons. After spending some time in the jungle, we flew to Ambergris Caye in a very tiny plane. We enjoyed spending time on the beach. We took a catamaran tour that involved fishing and snorkeling with nurse sharks.
+                </p>
+                <p>
+                    The food in Belize is delicious and nutritious. Beans and Rice are a common staple. Fried plantains make a delicious side dish. Conch fritters and fresh fish can be found in abundance. Caye Lime pie is a common dessert item.
+                </p>
+                <div class="info-container">
+                    <div class="place-info">
+                        <section class="capital">
+                            <h3>Captial</h3>
+                            <p>Belmopan</p>
+                        </section>
+                        <section class="currency">
+                            <h3>Currency</h3>
+                            <p>Belize dollar (BZD)</p>
+                        </section>
+                        <section class="language">
+                            <h3>Language</h3>
+                            <p>Spanish</p>
+                            <ul>
+                                <li>good day - buenos di&#x301;as</li>
+                                <li>please - por favor</li>
+                                <li>thank you - gracias</li>
+                                <li>goodbye - adio&#x301;s</li>
+                            </ul>
+                        </section>
+                    </div>
+                    <section class="tips">
+                        <h4>Visitor Tips</h4>
+                        <ul>
+                            <li>If you go cave tubing, try to do it on a day when there are not any cruise ships in port. It will be a much less crowded and more pleasant experience. You can check cruise ship schedules <a href="http://ports.cruisett.com/">here</a>.</li>
+                            </br>
+                            <li>Rice and beans is different from beans and rice. Rice and beans are cooked together in one pot with aromatics. Beans and rice are cooked separately.</li>
+                            </br>
+                            <li>Bring plenty of sunscreen and insect repellent.</li>
+                        </ul>
+                    </section>
+                </div>
             </section>
         </article>
 
     </main>
     <footer>
-        <a href="#header">top of page &#9757;</a>
+        <a href="#header">top of page<i class="material-icons">arrow_upward</i></a>
     </footer>
 
 

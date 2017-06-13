@@ -1,0 +1,121 @@
+html {
+    font-family: 'Arial', san-serif;
+    text-align: left;
+    margin: auto;
+}
+
+.capital {
+    background-color: #98B6B1;
+}
+
+.capital,
+.currency,
+.language,
+.tips {
+    color: white;
+    border-radius: 10px;
+    text-align: left;
+    padding: 10px 100px 10px 100px;
+    border: 2px solid #444444;
+    margin: 0.5em;
+}
+
+.clearfix {
+    margin: 0 20%;
+}
+
+.currency {
+    background-color: #CEA450;
+}
+
+.info-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.language {
+    background-color: #002835;
+}
+
+.tips {
+    background-color: #A3520B;
+    width: 50%;
+    padding: 70px 100px 10px 100px;
+}
+
+img {
+    display: block;
+    margin: auto;
+    width: 70%;
+    border: 2px solid #444444;
+    border-radius: 20px;
+}
+
+figcaption {
+    padding: 0px 50px 50px 50px;
+    text-align: center;
+}
+
+p {
+    width: 1000px;
+    text-align: left;
+    margin: auto;
+    margin-bottom: 25px;
+}
+
+.place-info {
+    width: 50%;
+    margin-right: 1em;
+}
+
+ul {
+    margin-bottom: 25px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 48px;
+    color: #002835;
+    padding-top: 120px;
+    border-top: 3px solid #827D80;
+}
+
+footer {
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: auto;
+    font-size: 2em;
+    text-align: center;
+}
+
+#title1 {
+    color: #444444;
+    font-family: 'Pinyon Script', cursive;
+    text-align: center;
+    font-size: 4em;
+}
+
+#byline {
+    color: #444444;
+    font-family: Verdana;
+    text-align: center;
+    margin-top: -50px;
+}
+
+.button {
+    background-color: #98B6B1;
+    border: 2px solid #444444;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 10px;
+}
+
+.button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
