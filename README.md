@@ -7,5 +7,5 @@ This is a website showing places I have traveled.
     HTML
     CSS
 
-## Click here to view as webpage  
+Click here to view as webpage  
 https://rawgit.com/Sara-Hamilton/html-me-something/master/
