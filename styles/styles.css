@@ -90,6 +90,11 @@ nav ul li {
     text-align: center;
 }
 
+nav {
+    margin: auto;
+    width: 50%;
+}
+
 #title1 {
     color: #444444;
     font-family: 'Pinyon Script', cursive;
