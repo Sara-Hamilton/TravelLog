@@ -2,7 +2,7 @@
 (function($) {
     $(document).ready(function() {
          $('html, body').animate({
-           'scrollTop':   $('#TravelLog').offset().top
+           'scrollTop':   $('#TravelLog').offset().top - 50
          }, 2000);
     });
 })(jQuery);
