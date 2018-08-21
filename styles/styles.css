@@ -2,6 +2,10 @@ html {
     font-family: 'Arial', san-serif;
 }
 
+article {
+  margin-bottom: 3em;
+}
+
 .capital {
     background-color: #98B6B1;
 }
