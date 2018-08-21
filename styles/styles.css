@@ -93,12 +93,19 @@ footer {
     color: white;
 }
 
-:target:before {
+/* :target:before {
     content:"";
     display:block;
     height: 50px;
     margin:-50px 0 0;
-}
+} */
+
+/* a #TravelLog {
+  padding-top: 100px;
+  margin-top: -100px;
+  position: relative;
+  top: 300px;
+} */
 
 #title1 {
     color: #444444;
